@@ -1,0 +1,40 @@
+.dog-image {
+    width: 400px;  
+    height: 400px;
+    object-fit: cover; 
+    transition: opacity 0.5s ease-in-out; 
+    opacity: 1; 
+    display: block;
+    margin: auto;
+  }
+h1{
+    background-color: gray;
+    text-align: center;
+    height: 3rem;
+}
+body{
+    background-color: lightgrey;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 2rem;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.searchButton{
+    margin-bottom: 2rem;
+    margin-top: 4px;
+}
